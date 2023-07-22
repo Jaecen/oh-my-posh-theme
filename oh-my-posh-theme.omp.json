@@ -19,6 +19,12 @@
           }
         },
         {
+          "type": "session",
+          "style": "plain",
+          "foreground": "#00AA00",
+          "template": "{{ if .SSHSession }}  {{ .UserName }}@{{ .HostName }}{{ end }}"
+        },
+        {
           "type": "path",
           "style": "diamond",
           "leading_diamond": "",
